@@ -1,0 +1,12 @@
+pwd
+ls
+mkdir command-line-easy
+cd command-line-easy
+touch hello.txt
+nano hello.txt
+cp hello.txt hello-copy.txt
+mv hello-copy.txt ..
+rm hello.txt
+cat ../hello-copy.txt
+echo "Test" > test.txt
+
