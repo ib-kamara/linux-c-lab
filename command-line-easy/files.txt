@@ -1,0 +1,4 @@
+easy-log.txt
+files.txt
+secret.txt
+test.txt
