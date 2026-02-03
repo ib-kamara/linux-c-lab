@@ -1,0 +1,22 @@
+File format:
+(Example: elf64-x86-64)
+
+Architecture:
+(Example: i386:x86-64)
+
+Segments / sections I found:
+.text
+.data
+.bss
+.rodata
+(interpreter)
+(dynamic)
+(add others you see)
+
+Main function section:
+main is in the .text section
+address of main: 0x________
+
+Stack and heap:
+I do not see the stack or heap as fixed sections.
+They are created at runtime by the OS.
