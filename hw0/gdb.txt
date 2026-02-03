@@ -1,0 +1,8 @@
+argc = 2 
+argv[0] = ./wc_debug 
+argv[1] = wc.c
+address of main = 0x55a1c3f1b1bc 
+
+info stack: shows the call stack
+info frame: shows the current frame
+info registers: shows cpu registers
