@@ -1,0 +1,12 @@
+total 96
+-rw-rw-rw-  1 codespace codespace     0 Feb 19 19:48 README.md
+-rwxrwxrwx  1 codespace codespace 16216 Feb 19 20:22 confirm_quit
+-rwxrwxrwx  1 codespace codespace 16176 Feb 19 20:33 dup_warmup
+-rwxrwxrwx  1 codespace codespace 16096 Feb 19 19:50 ignore_sigint
+drwxrwxrwx+ 2 codespace codespace  4096 Feb 19 19:48 lab_report
+-rw-r--r--  1 codespace codespace     0 Feb 19 20:35 my_ls_output.txt
+-rw-r--r--  1 codespace codespace     7 Feb 19 20:33 output_file.txt
+-rwxrwxrwx  1 codespace codespace 16248 Feb 19 20:35 redirect_exec
+drwxrwxrwx+ 2 codespace codespace  4096 Feb 19 20:34 src
+-rw-r--r--  1 codespace codespace   700 Feb 19 20:29 test.txt
+-rwxrwxrwx  1 codespace codespace 16272 Feb 19 20:29 write_seek
