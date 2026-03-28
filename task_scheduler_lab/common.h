@@ -6,6 +6,7 @@
 #include <queue>
 #include <algorithm>
 #include <string>
+#include <random>
 
 using namespace std;
 
@@ -18,6 +19,8 @@ struct Process
     int remaining_time;
     int waiting_time;
     int turnaround_time;
+    double vruntime;
+    int deadline;
 };
 
 void calculateMetrics(vector<Process>& processes, int total_time)
@@ -59,10 +62,10 @@ vector<Process> getProcesses()
 {
     vector<Process> processes =
     {
-        {"P1", 0, 8, 2, 8, 0, 0},
-        {"P2", 1, 4, 1, 4, 0, 0},
-        {"P3", 2, 9, 3, 9, 0, 0},
-        {"P4", 3, 5, 4, 5, 0, 0}
+        {"P1", 0, 8, 2, 8, 0, 0, 0.0, 0},
+        {"P2", 1, 4, 1, 4, 0, 0, 0.0, 0},
+        {"P3", 2, 9, 3, 9, 0, 0, 0.0, 0},
+        {"P4", 3, 5, 4, 5, 0, 0, 0.0, 0}
     };
 
     return processes;
